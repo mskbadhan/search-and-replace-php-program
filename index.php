@@ -1,4 +1,4 @@
-<title>Welcome to the chat</title>
+<title>Welcome to src and replace</title>
 <style>
     @import url(https://fonts.googleapis.com/css?family=Raleway:100);
     body{
@@ -38,7 +38,7 @@ if(isset($_POST["text_input"]) && isset($_POST["search_for"]) && isset($_POST["r
 
 <form action="index.php" method="POST">
 <!--the text area for the main input-->
-    <textarea name="text_input" id="txtarea" cols="30" rows="10" placeholder="<?php if(!empty($_POST["text_put"])) {
+    <textarea name="text_input" id="txtarea" cols="30" rows="10" placeholder="<?php if(!empty($_POST["text_input"])) {
     echo $userInput;
 
     }else{
